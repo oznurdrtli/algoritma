@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="odev1_algoritma"/>
+        <attribute name="authors" value="&#199;a&#287;la"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-16 04:20:50 &#214;S"/>
+        <attribute name="created" value="w4dhxJ9sYTtERVNLVE9QLUhVSFI3Rk07MjAyNC0xMC0xNjsxMjo1NTozMCDDllM7MzMwMA=="/>
+        <attribute name="edited" value="w4dhxJ9sYTtERVNLVE9QLUhVSFI3Rk07MjAyNC0xMC0xNjswNDoyMDo1MCDDllM7MTszNDAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dogumYili, guncelYil, yas, sayi" type="Integer" array="False" size=""/>
+            <input variable="dogumYili"/>
+            <output expression="&quot; Do&#287;um y&#305;l&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="guncelYil"/>
+            <output expression="&quot; G&#252;ncel y&#305;l&#305; giriniz&quot;" newline="True"/>
+            <assign variable="yas" expression="guncelYil-dogumYili"/>
+            <if expression="yas%2=0">
+                <then>
+                    <output expression="&quot;say&#305; &#231;ifttir&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;say&#305; tektir&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
